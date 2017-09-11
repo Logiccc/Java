@@ -7,6 +7,8 @@ public class test {
 		JOptionPane.showMessageDialog(null, "David Persson" + "ja fucking ha"
 		Toolkit.getDefaultToolkit().beep();
 		JOptionPane.showMessageDialog(null, "112 litel aina");
+		//Test kommentar
+		//Ja ha
 		
 
 
