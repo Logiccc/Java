@@ -4,9 +4,9 @@ import java.util.*;
 
 public class test {
 	public static void main(String[]args) {
-		//Toolkit.getDefaultToolkit().beep(); //Ljud effekt
+		Toolkit.getDefaultToolkit().beep(); //Ljud effekt
 		JOptionPane.showMessageDialog(null, "Hello guys!" + "\nMe name Logic."); //1sta meddelandet
- 		//Toolkit.getDefaultToolkit().beep(); //Ljud effekt nr2
+ 		Toolkit.getDefaultToolkit().beep(); //Ljud effekt nr2
 		JOptionPane.showMessageDialog(null, "I am insane counter strick"); //Andra meddelandet
 		JOptionPane.showMessageDialog(null, "Datum och tid: \n" + Calendar.getInstance().getTime().toString()); //Kalender
 		String s1;
@@ -17,12 +17,17 @@ public class test {
 		s3 = "  goDazed";
 		String s4; 
 		s4 = "\n";
-		JOptionPane.showMessageDialog(null, s1 + s4 + s2 + s4 + s3);
+		String name = JOptionPane.showInputDialog(null, "What's your name?");
+			JOptionPane.showMessageDialog(null, name + "\n Maybe consider kys?" );
+			
+
+
+
 		//This is kommentar
-		/* Multiline kommentar test1
-		/
-		/
-		/
+		/** Multiline kommentar test1
+		* sdsdsdsd
+		*dfdfdfdf
+		*gfgfgfgfgfgfgfgfgfgfgfg
 		*/
 
 
